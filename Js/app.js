@@ -22,10 +22,10 @@ const initSmoothScrolling = ()=>{
 initSmoothScrolling();
 startLoader();
 
-gsap.to(".overlay", 1.5, {
+gsap.to(".overlay", 1.8, {
     delay:3,
     ease: "power4.inOut",
-    top: "-100%"
+    top: "-150%"
 })
 
 gsap.from(".aboutContainer", 2.2, {
