@@ -131,12 +131,12 @@ body{
 }
 
 .overlay h1{
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: lighter;
 }
 
 .overlay p{
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: bolder;
 }
 
@@ -421,6 +421,14 @@ body{
 @media (min-width: 40em) {
     .mainContainer{
         width: 80vw;
+    }
+
+    .overlay h1{
+        font-size: 10rem;
+    }
+
+    .overlay p{
+        font-size: 10rem;
     }
 
     .containerTitle{
